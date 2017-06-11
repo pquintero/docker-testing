@@ -10,6 +10,8 @@ docker exec -it db bash
 ## Prueba para validar codigo
 docker run -it -rm prueba bash
 
+## Docker Image
+docker build . -t {name}
 
 # Docker Link
 docker run -d --name db mongo
